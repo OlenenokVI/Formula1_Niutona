@@ -10,7 +10,7 @@ void calculate_coeffs(double X[], double Y[], int n, double a[]) {
         div_diff[i] = Y[i];
     }
 
-    a[0] = div_diff[0];
+    a[0] = div_diff[0]; 
     if (std::abs(a[0]) < 0.0000001)
     {
         std::cout << "a0: " << 0 << std::endl;
