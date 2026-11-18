@@ -3,6 +3,16 @@
 #include <iomanip>
 #include <cmath> 
 
+// задание 2.2
+/*
+для создания независимого такого же массива я использовала этот цикл:
+for (int i = 0; i < n; i++) {
+    div_diff[i] = Y[i];
+}
+который поэлементно добавлял значения в новый массив.
+*/
+
+
 void calculate_coeffs(double X[], double Y[], int n, double a[]) {
     double div_diff[100];
 
